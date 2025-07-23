@@ -2,5 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Rubik', sans-serif;
 }
+
+body {
+    background: linear-gradient(115deg, #00b6cc, #0060ff);
+    color: #ffffff;
+    min-height: 100vh;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Navegação */
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
