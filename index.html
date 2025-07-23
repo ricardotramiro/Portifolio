@@ -4,21 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Meu Portifólio</title>
   </head>
   <body>
     <header>
+      <nav>
+        <ul>
+          <li><a href="start"></a>Início</li>
+          <li><a href="on"></a>Sobre</li>
+          <li><a href="projects"></a>Projetos</li>
+          <li><a href="contacts"></a>Contato</li>
+        </ul>
+      </nav>
       <div>
         <h1>Olá, sou o Ricardo Teixeira</h1>
-        <img src="" alt="" />
+        <img src="./assets/IMG_20250510_160453413.jpg" alt="foto-ricardo" />
       </div>
     </header>
     <!--id sobre-->
     <section id="on">
       <h2>Sobre</h2>
       <p>
-        Sou um desenvolvedor Front-End, buscando sempre evoluir e criar projetos
-        impactantes.
+        Sou Ricardo, um desenvolvedor Front-End em transição de carreira, vindo
+        de mais de 10 anos de experiência como estoquista de salão de beleza.
+        Movido pela vontade de aprender e me reinventar, iniciei minha jornada
+        na programação focado em HTML, CSS e JavaScript. Venho construindo
+        projetos práticos e criativos como forma de consolidar o conhecimento e
+        desenvolver um portfólio com identidade própria. Tenho como diferencial
+        o foco, organização e o desejo constante de evoluir profissionalmente
+        por meio de novos desafios e aprendizados diários.
       </p>
     </section>
     <!--id projetos-->
@@ -57,11 +76,33 @@
     </section>
     <!--id contatos-->
     <section id="contacts">
-        <h2>Contatos</h2>
-
+      <h2>Contatos</h2>
+      <!-- classe icones -->
+      <div class="icons">
+        <a href="https://wa.me/5511962307325" target="_blank" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:ricardoteixeiraramiro@gmail.com" title="E-mail">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ricardo-teixeira-ramiro-b25849346/"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/ricardoteixeira"
+          target="_blank"
+          title="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </section>
     <footer>
-        <p>&copy; 2025 Ricardo Teixeira - Todos os direitos reservados</p>
+      <p>&copy; 2025 Ricardo Teixeira - Todos os direitos reservados</p>
     </footer>
   </body>
   <script src="script.js"></script>
