@@ -39,34 +39,39 @@ nav a:hover {
     color: #00ffff;
 }
 
-header {
-    text-align: center;
+/* Seção de introdução imagem e saudação */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: left;
     padding: 40px 0;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-
-header img {
+.intro img {
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #ffffff;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
+    margin-left: 0;
     transition: transform 0.3s ease;
 }
 
-header img:hover {
+.intro img:hover {
     transform: scale(1.05);
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    opacity: 0.9;
 }
 
 /* Sobre */
