@@ -97,7 +97,6 @@ nav a:hover {
     line-height: 1.8;
     padding: 0 15px;
     color: #ffffff
-    opacity: 0.95;
 }
 
 /* Projetos */
@@ -197,4 +196,6 @@ footer {
     font-size: 0.9rem;
     margin: 20px 0 10px;
 }
+
+@media screen and (max-width: 768px)
 
