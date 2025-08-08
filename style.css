@@ -5,6 +5,11 @@
     font-family: 'Rubik', sans-serif;
 }
 
+/* Serve para deixar a rolagem mais suave */
+html {
+    scroll-behavior:smooth ;
+}
+
 body {
     background: linear-gradient(115deg, #00b6cc, #0060ff);
     color: #ffffff;
