@@ -98,13 +98,20 @@
         </a>
       </div>
     </section>
-    <section id="whatsapp-form">
-      <h2>Solicite um Orçamento</h2>
-      <form id="form-whatsapp">
+    <section id="budget">
+      <div id="form-container">
+      <h2 id="form-title">Solicite um Orçamento</h2>
+      <!-- Formulário-->
+      <form id="whatsapp-form">
       <input type="text" id="name" placeholder="Seu nome" required>
       <textarea id="message" placeholder="Digite sua mensagem" required></textarea>
       <button type="submit">Enviar via WhatsApp</button>
       </form>
+      </div>
+      <!-- Mensagem enviada (escondida)-->
+      <div id="success-message" style="display: none;">
+        ✅ Sua mensagem foi enviada! Obrigado pelo contato.
+      </div>
     </section>
     <footer>
       <p>&copy; 2025 Ricardo Teixeira - Todos os direitos reservados</p>

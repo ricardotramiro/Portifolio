@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 /* Formulario whatsapp */
-#whatsapp-form {
+#budget {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -236,6 +236,14 @@ nav a:hover {
 
 #whatsapp-form button:hover {
     background-color: #00ffff;
+}
+
+#success-message {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 /* Rodapé */
