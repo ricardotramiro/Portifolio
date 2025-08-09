@@ -247,5 +247,73 @@ footer {
     margin: 20px 0 10px;
 }
 
-@media screen and (max-width: 768px)
+/* mensagem enviada */
+.thank-you-message {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #00ffff;
+    border-right: 5px solid #00ffff;
+    color: #ffffff;
+    font-size: 1,2rem;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .intro img {
+        margin: 0 auto;
+    }
+
+    #projects ul {
+        grid-template-columns: 1fr;
+    }
+
+    #whatsapp-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #whatsapp-form input,
+    #whatsapp-form textarea {
+        font-size: 1rem;
+    }
+
+    #whatsapp-form button {
+        width: 100%;
+    padding: 12px;
+    }
+
+}
+
+@media screen and (max-whidth:480px){
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    #on p {
+        font-size: 1rem;
+    }
+
+    #projects h3 {
+        font-size: 1rem;
+    }
+    
+}
 
