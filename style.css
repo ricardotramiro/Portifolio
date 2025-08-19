@@ -113,6 +113,15 @@ nav a:hover {
     border-right: 5px solid #00ffff;
 }
 
+/* Ícones de tecnologia */
+.skills {
+    margin-top: 15px;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 /* Projetos */
 #projects {
     margin-bottom: 40px;
@@ -203,9 +212,9 @@ nav a:hover {
     color: #00ffff;
 }
 
-/* Formulario whatsapp */
-#budget {
-    text-align: center;
+/* Formulario email */
+form {
+    text-align:center ;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
@@ -215,8 +224,8 @@ nav a:hover {
     border-right: 5px solid #00ffff;   
 }
 
-#whatsapp-form input,
-#whatsapp-form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
@@ -224,7 +233,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-#whatsapp-form button {
+form button {
     background-color: #ffffff;
     color: #1e90ff;
     padding: 10px 15px;
@@ -236,17 +245,20 @@ nav a:hover {
     transition: background 0.3s;
 }
 
-#whatsapp-form button:hover {
+form button:hover {
     background-color: #00ffff;
 }
 
-#success-message {
-    background: rgba(255, 255, 255, 0.15);
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
+/* Whatsapp flutuante */
+#link-whatsapp {
+    position: fixed;
+    height: 55px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+
 }
+
 
 /* Rodapé */
 footer {
