@@ -103,24 +103,50 @@ nav a:hover {
     max-width: 950px;
     text-align:justify ;
     font-size: 1.2rem;
-    line-height: 1.8;
+    line-height: 1.8rem;
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 10px;
     color: #ffffff;
     text-align-last: center;
     /* Efeito na lateral bordas */
     border-left: 5px solid #00ffff;
     border-right: 5px solid #00ffff;
 }
+.technologies h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 
-/* Ícones de tecnologia */
-.skills {
-    margin-top: 15px;
-    font-size: 40px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
 }
+/* Ícones de tecnologia */
+.skills  {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 2.5rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    border-left: 5px solid #00ffff;
+    border-right: 5px solid #00ffff;
+    
+}
+
+i {
+    cursor: pointer;
+     transition: 0.1s ease;
+}
+
+i:hover {
+    transform: translateY(-3px);
+}
+
+
+
+
 
 /* Projetos */
 #projects {
@@ -250,15 +276,33 @@ form button:hover {
 }
 
 /* Whatsapp flutuante */
-#link-whatsapp {
+.link-whatsapp {
     position: fixed;
     height: 55px;
     bottom: 20px;
     right: 20px;
+    margin-bottom: 50px;
     z-index: 9999;
-
 }
 
+/* Botão voltar ao topo */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display:/*none*/;
+    background: #0060ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#back-to-top:hover {
+    background: #00ffff;
+}
 
 /* Rodapé */
 footer {
