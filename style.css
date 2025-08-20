@@ -288,8 +288,7 @@ form button:hover {
 /* Botão voltar ao topo */
 #back-to-top {
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 70px;
     display:/*none*/;
     background: #0060ff;
     color: #ffffff;
