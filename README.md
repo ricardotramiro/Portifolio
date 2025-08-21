@@ -4,4 +4,4 @@
 <p>Ter um local único onde vocês possam acompanhar meu trabalho e minha evolução.</p>
 <h2>📌Neste portfólio você encontrará:</h2>
 <p>Sites responsivos e modernos, projetos focados na experiência do usuário e funcionalidades interativas com JavaScript</p>
-<img src="">
+<img src="https://github.com/ricardotramiro/Portifolio/blob/main/assets/Capa%20Readme%20portf%C3%B3lio.png?raw=true">
