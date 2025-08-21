@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-
 /* Serve para deixar a rolagem mais suave */
 html {
     scroll-behavior:smooth ;
@@ -17,7 +16,6 @@ body {
     line-height: 1.6;
     padding: 0 30px;
 }
-
 /* Navegação */
 nav {
     background-color:rgba(0, 182, 204, 0.2);
@@ -47,7 +45,6 @@ nav a:hover {
     color: #00ffff;
     transform: scalex(1.2);
 }
-
 /* Seção de introdução imagem e saudação */
 .intro {
     display: flex;
@@ -67,9 +64,7 @@ nav a:hover {
     margin-left: 10rem;
     transition: transform 0.3s ease;
     flex-shrink: 0;
-
 }
-
 /* Efeito quando passa o mouse a imagem cresce um pouco */ 
 .intro img:hover {
     transform: scale(1.05);
@@ -85,7 +80,6 @@ nav a:hover {
     font-size: 1.2rem;
     opacity: 0.9;
 }
-
 /* Sobre */
 #on {
     margin-bottom: 40px;
@@ -131,8 +125,7 @@ nav a:hover {
     width: 100%;
     border-radius: 10px;
     border-left: 5px solid #00ffff;
-    border-right: 5px solid #00ffff;
-    
+    border-right: 5px solid #00ffff;    
 }
 
 i {
@@ -143,11 +136,6 @@ i {
 i:hover {
     transform: translateY(-3px);
 }
-
-
-
-
-
 /* Projetos */
 #projects {
     margin-bottom: 40px;
@@ -289,7 +277,7 @@ form button:hover {
 #back-to-top {
     position: fixed;
     bottom: 70px;
-    display:/*none*/;
+    display: none;
     background: rgba(0, 0, 0, 0.3);
     color: #ffffff;
     border: none;
@@ -352,9 +340,7 @@ footer {
     #on p {
         text-align:center;
         font-size: 1.3rem;
-
     }
-
 
     #projects h3 {
         font-size: 1rem;
