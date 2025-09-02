@@ -342,8 +342,12 @@ footer {
 
 @media screen and (max-width:480px){
     nav ul {
-        font-size: 0.85rem;
-        gap:20px;
+        font-size: 0.70rem;
+        gap:15px;
+}
+
+#toggle-theme {
+    right: 7.5px;
 
 }
 
