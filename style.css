@@ -10,11 +10,41 @@ html {
 }
 
 body {
+    transition: background 0.3s, color 0.3s;
+    line-height: 1.5;
+}
+
+/* Modo escuro com gradiente (ativo por padão) */
+body.dark-mode{
+    background: linear-gradient(135deg, #1a1a2e, #0f3460, #16213e);
+    background-attachment: fixed;
+    color: #ffffff;
+}
+/* Modo claro */
+body.light-mode {
     background: linear-gradient(115deg, #00b6cc, #0060ff);
     color: #ffffff;
-    min-height: 100vh;
-    line-height: 1.6;
-    padding: 0 30px;
+}
+
+#toggle-theme {
+    position: absolute;
+    top:90px;
+    right: 50px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(225, 255, 225, 0.1);
+    color: #ffffff;
+    font-size: 20px;
+    transition: background 0.3s, transform 0.2s;
+    z-index: 1000;
+}
+
+#toggle-theme:hover {
+    background: #00ffff;
+    color:#0f3460;
+    transform: scale(1.1);
 }
 /* Navegação */
 nav {

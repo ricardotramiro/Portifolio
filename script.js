@@ -1,3 +1,25 @@
+// ===== Alternância do tema =====
+const themeButton = document.getElementById("toggle-theme");
+const themeIcon = document.getElementById("theme-icon");
+
+// Começa no modo escuro
+document.body.classList.add("dark-mode");
+themeIcon.classList.replace("fa-moon", "fa-sun");
+
+// Alterna os temas
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  document.body.classList.toggle("light-mode");
+
+  // Alterna ícone
+  if (document.body.classList.contains("dark-mode")) {
+    themeIcon.classList.replace("fa-moon", "fa-sun");
+  } else {
+    themeIcon.classList.replace("fa-sun", "fa-moon");
+  }
+});
+
+
 // Seleciona o botão
 const backToTop = document.getElementById("back-to-top");
 
